@@ -1,0 +1,16 @@
+// This mapcycle is intentionally left blank. This will make servers use the playlist allowed_maps list instead.
+bastogne stronghold
+brittany stronghold
+breville stronghold
+comacchio stronghold
+crete stronghold
+dog_red stronghold
+dunkirk stronghold
+flakturm stronghold
+foy stronghold
+ortona stronghold
+reichswald stronghold
+rhineland stronghold
+saint_lo stronghold
+salerno stronghold
+sicily stronghold
