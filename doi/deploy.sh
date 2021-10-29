@@ -1,5 +1,6 @@
 #! /bin/bash
 
+PRESENTDIR=PWD
 
 if test "$#" -ne 1; then
   GAMEPATH=~/Steam/steamapps/common/DOI
@@ -10,5 +11,5 @@ fi
 cd $GAMEPATH
 echo $GAMEPATH
 # first time setup
-cp server.cfg doi/cfg/
-cp mapcycle_coop.txt  doi/
+cp $PRESENTDIR/server.cfg doi/cfg/
+cp $PRESENTDIR/mapcycle_coop.txt  doi/
