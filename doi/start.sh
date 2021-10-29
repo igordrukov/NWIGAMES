@@ -1,11 +1,11 @@
 #! /bin/bash
 
 if test "$#" -ne 1; then
-  PATH=~/Steam/steamapps/common/DOI
+  GAMEPATH=~/Steam/steamapps/common/DOI
  else
-  PATH=~/doi/serverfiles
+  GAMEPATH=~/doi/serverfiles
 fi
 
-cd $PATH
+cd $GAMEPATH
 
 /bin/bash srcds_run +map "dunkirk stronghold" +maxplayers 4 -debug

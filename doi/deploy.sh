@@ -2,12 +2,13 @@
 
 
 if test "$#" -ne 1; then
-  PATH=~/Steam/steamapps/common/DOI
+  GAMEPATH=~/Steam/steamapps/common/DOI
  else
-  PATH=~/doi/serverfiles
+  GAMEPATH=~/doi/serverfiles
 fi
 
-cd $PATH
+cd $GAMEPATH
+echo $GAMEPATH
 # first time setup
 cp server.cfg doi/cfg/
 cp mapcycle_coop.txt  doi/
