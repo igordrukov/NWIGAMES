@@ -100,4 +100,13 @@ maxplayers="3"
 startparameters="${defaultmap}?MaxPlayers=${maxplayers} -RconListenPort=${listenport} -Port=${port} -QueryPort=${queryport} -ruleset=${strRuleSet} -hostname=${servername} -log -MapCycle=mapcycle -GameStatsToken=2D279FA824DB48B79E5EBF0813E91ABE"
 echo $startparameters
 read -p "Carry on?"
-#~/Steam/steamapps/common/sandstorm_server/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $startparameters
+
+if test "$#" -ne 1; then
+    PATH=~/Steam/steamapps/common/sandstorm_server
+  else
+    PATH=~/sandstorm/serverfiles
+fi
+
+cd $PATH
+
+Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping $startparameters
