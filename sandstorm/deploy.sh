@@ -10,11 +10,11 @@ cd $PATH
 # first time setup
 mkdir -p Insurgency/Config/Server
 cd Insurgency/Config/Server
-mv mapcycle.txt .
+cp mapcycle.txt .
 
 cd $PATH
 mkdir -p  Insurgency/Saved/Config/LinuxServer
 cd Insurgency/Saved/Config/LinuxServer
-mv Game.ini .
+cp Game.ini .
 
 

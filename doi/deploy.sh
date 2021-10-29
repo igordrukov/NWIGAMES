@@ -9,5 +9,5 @@ fi
 
 cd $PATH
 # first time setup
-mv server.cfg doi/cfg/
-mv mapcycle_coop.txt  doi/
+cp server.cfg doi/cfg/
+cp mapcycle_coop.txt  doi/
