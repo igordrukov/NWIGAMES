@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PRESENTDIR=PWD
+PRESENTDIR=$PWD
 
 if test "$#" -ne 1; then
   GAMEPATH=~/Steam/steamapps/common/DOI
