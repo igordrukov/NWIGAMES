@@ -8,5 +8,5 @@ fi
 
 cd $GAMEPATH
 
-/bin/bash srcds_run +map "dunkirk stronghold"
+/bin/bash srcds_run +map "breville stronghold"
 #/bin/bash srcds_run +map "dunkirk stronghold" +maxplayers 4 -debug
