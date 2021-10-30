@@ -97,7 +97,8 @@ listenport="27015"
 servername="TESTSERVER"
 defaultscenario="Scenario_Precinct_Checkpoint_Insurgents"
 maxplayers="3"
-startparameters="${defaultmap}?MaxPlayers=${maxplayers} -RconListenPort=${listenport} -Port=${port} -QueryPort=${queryport} -ruleset=${strRuleSet} -hostname=${servername} -log -MapCycle=mapcycle -GameStatsToken=2D279FA824DB48B79E5EBF0813E91ABE"
+#startparameters="${defaultmap}?MaxPlayers=${maxplayers} -RconListenPort=${listenport} -Port=${port} -QueryPort=${queryport} -ruleset=${strRuleSet} -hostname=${servername} -log -MapCycle=mapcycle -GameStatsToken=2D279FA824DB48B79E5EBF0813E91ABE"
+startparameters="${defaultmap}?MaxPlayers=${maxplayers} -RconListenPort=${listenport} -Port=${port} -QueryPort=${queryport} -hostname=${servername} -log -MapCycle=mapcycle -GameStatsToken=2D279FA824DB48B79E5EBF0813E91ABE"
 echo $startparameters
 read -p "Carry on?"
 
